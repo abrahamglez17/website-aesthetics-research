@@ -1,9 +1,9 @@
-numpy
+numpy==1.19.5
 tensorflow==1.14.0
 tensorflow-gpu==1.14.0
 keras==2.2.5
-matplotlib
-opencv-python
-scipy
-seaborn
-scikit-learn
+matplotlib==3.3.4
+opencv-python==4.5.5.64
+scipy==1.5.4
+seaborn==0.11.2
+scikit-learn==0.24.2
