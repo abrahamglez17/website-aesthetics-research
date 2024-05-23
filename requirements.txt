@@ -1,6 +1,6 @@
 numpy==1.19.5
 tensorflow==1.14.0
-keras==2.4.3
+keras==2.2.5
 matplotlib==3.3.4
 opencv-python==4.5.5.64
 scipy==1.5.4
