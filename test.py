@@ -1,7 +1,7 @@
 import h5py
 
 # Ruta al archivo del modelo
-model_path = 'pretrained-models/flickr_style.h5'
+model_path = 'pretrained-models/mobilenet_weights.h5'
 
 # Abrir el archivo .h5 y listar su contenido
 with h5py.File(model_path, 'r') as f:
