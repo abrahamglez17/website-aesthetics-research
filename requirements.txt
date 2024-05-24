@@ -2,7 +2,7 @@ numpy
 tensorflow
 keras
 matplotlib
-opencv-python.76
+opencv-python
 scipy
 seaborn
 scikit-learn
