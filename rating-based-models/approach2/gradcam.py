@@ -61,9 +61,13 @@ def main(img_path):
 
     # Display the image
     superimposed_img = cv2.cvtColor(superimposed_img, cv2.COLOR_BGR2RGB)  # Convert BGR to RGB
+    
     plt.imshow(superimposed_img)
     plt.axis('off')
+    plt.title('Website aesthetic prediction score: {:.2f}'.format(prediction))
+    plt.savefig("plot.png")
     plt.show()
+    return superimposed_img, prediction # Return the superimposed image as a numpy array and the prediction as a float
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
